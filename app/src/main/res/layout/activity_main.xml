@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="野々市市の地域"
+        android:textSize="26sp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ボタンをクリック"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:text="本町１丁目・本町２丁目・本町５丁目・本町６丁目・若松町・横宮町・三納・位川・太平寺・稲荷・堀内・押野・押越"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="本町３丁目・本町４丁目・白山町・粟田・矢作・藤平田・下林"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="高橋町・扇が丘・住吉町・菅原町・菅原団地"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:text="中林・上林・新庄・藤平・清金・末松・田尻町・三日市・二日市・徳用・郷・蓮花寺町・柳町・長池・野代・あすなろ団地・御経塚"
+        android:textSize="12sp"/>
+
+
+
+
+
+</LinearLayout>
